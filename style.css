@@ -1,0 +1,82 @@
+* {
+    outline: 1px solid red;
+}
+
+html {
+   overflow-x: hidden;
+    max-width: 100%;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100%;
+    background: linear-gradient(to bottom, #b2dafa, #dbecb6);
+}
+
+.titulo {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.mensagem {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#texto-0 {
+    font-size: 20px;
+    text-align: left;
+    padding-left: 10px;
+}
+
+#texto-1 {
+    font-size: 20px;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.fotos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    padding: 10px;
+    max-width: 100%;
+}
+
+.fotos img {
+    max-width: 90vw;
+    width: 250px;
+    height: auto;
+    display: block;
+    border-radius: 10px;
+}
+
+#foto-1 {
+    transform: rotate(18deg);
+}
+
+#foto-2 {
+    transform: rotate(-4deg);
+}
+
+#foto-3 {
+    transform: rotate(8deg);
+}
+
+#foto-4 {
+    transform: rotate(-12deg);
+}
+
+#foto-5 {
+    transform: rotate(16deg);
+}
+
+footer {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    padding: 10px;
+}
